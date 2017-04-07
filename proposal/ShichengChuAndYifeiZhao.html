@@ -15,36 +15,38 @@ q
 	<img src="bomberman03.jpg" />
 	<p>The game will have a simple maze.</p>
 	
-	<h2>Techniques and algorithms</h2>
-		<p>Our game will be modeled after Temple Run, but without 90 degree turns. The play will be brought to a start menu when opening the game. Pressing enter will start the game. The character will then see their character running and obstacles in the way. To avoid hitting the obstacles, the play can move left (left arrow), right (right arrow), or jump (spacebar). If the player collides with an obstacles, then the game will end, and the score will be shown on a game over screen If needed, we will use Blender or another similar piece of software for custom animations. To handle collision, we will most like use rigid body collision. We will also implement phsyics if needed to make the animations look more realistic. As the game goes on, we will randomly place more obstacles to make it harder. To create an infinite path, we will use pathigen </p> 
+	<h2>Techniques and Algorithms for Main feature</h2>
+	<ul>
+		<li>Simple AI of enemy: pathfinding algorithm-- To move toward player and attack player</li>
+		<li>Effect for flame and smog: particle motion</li>
+		<li>Collision detection and handling for 3D objects</li>
+	</ul>
 	<h2>How we split the jobs:</h2>
 	Shicheng Chu:
 	<ul>
-		<li>moving left and right</li>
-		<li>jumping and sliding</li>
-		<li>generating random obstacles</li>
-		<li>collision detection</li>
-		<li>testing</li>
+		<li>Basic scenes build up.</li>
+		<li>Implementation for controller.</li>
+		<li>Particle animation for flame and smog.</li>
+		<li>Implementation for some incoming interesting ideas (not necessary).</li>
+		<li>Creating tests for Yifei Zhao's code.</li>
 	</ul>
-	Zachary:
+	Yifei Zhao:
 	<ul>
-		<li>generating infinite path</li>
-		<li>point accumulation</li>
-		<li>dying</li>
-		<li>making the game look good(appealing visuals, smoothness of the game, etc.)</li>
-		<li>testing</li>
+		<li>Collision detection and handling.</li>
+		<li>AI for enemies.</li>
+		<li>Refactoring to make the code be more efficient.</li>
+		<li>Implementation for some incoming interesting ideas (not necessary).</li>
+		<li>Creating tests for Shicheng Chu's code</li>
 	</ul>
 	<h2>Timeline</h2>
 	<ul>
-		<li style="color:green">April 6 - Project Proposal Due</li>
-		<li>April 8 - Create character and get character to respond to proper input keys</li>
-		<li>April 10 - Finish creating infinite path. Assure that character can only run on path and will only turn at turns. Start working on generating random obstacles.</li>
-		<li>April 15 - Ideally finish process for generating random obstacles. Make sure character dies if intersecting obstacle. Assure that character can manuver around obstacle. Start working on start/end screen and point accumulation.</li>
-		<li>April 120 - Finished process for generating random obstacles. Make sure character responds appropriately when intersecting an object (death). Start work on scenery, textures, and other aesthetics.</li>
-		<li>April 25 - Finished working on aesthetics (add scenery, textures). Refine the visual and sound components of the game. Start final testing to make sure everything works</li>
-		<li style="color:red">April 25 - Short presentation</li>
-		<li>April 30 - Ideally finished testing. Ideally finished with project. Ideally submitted project.
-		<li style="color:red">May 1 - Final project due.</li>
+		<li style="color:blue">April 6 - Project Proposal Submission</li>
+		<li>April 10 - Basic scenes is built up.</li>
+		<li>April 13 - Particle animation, Controller for player and AI for enemies are funtional as we expected. </li>
+		<li>April 17 - Collision detection and handling are functional as we expected.</li>
+		<li style="color:blue">April 17 - April 24 - Based on the completeness of our project's main feature, we will talk with professor to decide our presentation date.</li>
+		<li>The date of presentation - April 30 - Based on the reviews from our presentation, we will keep improving our project. If we still have time, we will implement some intereting but not necessary ideas such as start menu, game scenes transtition and etc.
+		<li style="color:blue">May 1 - Final project Submission.</li>
 	</ul>
 	
 </body>
